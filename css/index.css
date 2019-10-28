@@ -1,0 +1,45 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  text-decoration: none;
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #62D4FA;
+  font-size: 1.1rem;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: #7bdbfb;
+}
+.btn:active {
+  -webkit-transform: translateY(3px);
+  -moz-transform: translateY(3px);
+  -ms-transform: translateY(3px);
+  -o-transform: translateY(3px);
+  transform: translateY(3px);
+}
+
+/*# sourceMappingURL=index.css.map */
